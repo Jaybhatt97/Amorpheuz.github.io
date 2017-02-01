@@ -1,9 +1,9 @@
 $(document).scroll(function(){
   var height = $(window).scrollTop();
   if (height>100) {
-     $('#navbar').css("color","green");
+     $('.navb').css("background-color","#86c440");
   }
   if(height<100){
-    $('#navbar').css("color","red");
+    $('.navb').css("background-color","#2fbbab");
   }
 });

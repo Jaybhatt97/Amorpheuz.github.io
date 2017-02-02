@@ -478,8 +478,6 @@ a.animated-button.thar-four:before {
     height: 70px;
      font-size: 55px;
     }
-
-<<<<<<< Updated upstream
 .button2 {
         color: white;
 
@@ -487,16 +485,7 @@ a.animated-button.thar-four:before {
     border-radius:10px 8px;
     height: 30%;
     width: 40%;
-    box-shadow: 10px 10px 5px #202020;
-=======
-.button2 { 
-    color: white; 
-  	border-radius:10px 8px;
-    height: 30%;
-    width: 40%; 
-     box-shadow: 10px 10px 5px #202020;
-  
->>>>>>> Stashed changes
+    box-shadow: 5px 5px 5px #202020;
    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -504,15 +493,9 @@ a.animated-button.thar-four:before {
      -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     border:5px;
-<<<<<<< Updated upstream
-    box-shadow: 10px 10px 5px #202020;
-    width: 600px;
-    height: 70px;
-=======
-      box-shadow: 15px 15px 7px #202020;
->>>>>>> Stashed changes
-     font-size: 15px;
-       border-radius:12px 10px;
+    box-shadow: 10px 10px 15px #202020;
+    font-size: 15px;
+    border-radius:12px 10px;
     }
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
 .social-btns .btn,

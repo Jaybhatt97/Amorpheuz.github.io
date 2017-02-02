@@ -46,6 +46,37 @@ p {
   width: 600px;
   margin: 0 auto 20px;
 }
+<<<<<<< Updated upstream
+=======
+.skewed {
+  width: 120px;
+  height: 120px;
+  -webkit-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.nSkewed {
+  width: 120px;
+  height: 120px;
+  -webkit-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.cntr {
+  display: flex;
+  /*Flexbox*/
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
+}
+>>>>>>> Stashed changes
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;

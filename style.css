@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  font-family: 'Share Tech Mono', monospace;
 }
 .navb{
   background-color: #2fbbab;
@@ -45,6 +46,26 @@ body{
 p {
   width: 600px;
   margin: 0 auto 20px;
+}
+.skewed {
+  width: 120px;
+  height: 120px;
+  -webkit-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.nSkewed {
+  width: 120px;
+  height: 120px;
+  -webkit-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
 }
 a.animated-button:link, a.animated-button:visited {
 	position: relative;

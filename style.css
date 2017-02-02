@@ -46,8 +46,6 @@ p {
   width: 600px;
   margin: 0 auto 20px;
 }
-<<<<<<< Updated upstream
-=======
 .skewed {
   width: 120px;
   height: 120px;
@@ -76,7 +74,6 @@ p {
   align-items: center;
   /* align vertical */
 }
->>>>>>> Stashed changes
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
@@ -463,12 +460,12 @@ a.animated-button.thar-four:before {
 .scroll-down a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-.button { 
-        color: white; 
+.button {
+        color: white;
     width: 500px;
     height: 60px;
     font-size: 45px;
-    border-radius:12px 10px; 
+    border-radius:12px 10px;
     box-shadow: 10px 10px 5px #202020;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -482,13 +479,13 @@ a.animated-button.thar-four:before {
      font-size: 55px;
     }
 
-.button2 { 
-        color: white; 
-   
+.button2 {
+        color: white;
+
     font-size: 13px;
     border-radius:10px 8px;
     height: 30%;
-    width: 40%; 
+    width: 40%;
     box-shadow: 10px 10px 5px #202020;
    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -497,11 +494,11 @@ a.animated-button.thar-four:before {
      -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     border:5px;
-    box-shadow: 10px 10px 5px #202020; 
+    box-shadow: 10px 10px 5px #202020;
     width: 600px;
     height: 70px;
      font-size: 15px;
-       border-radius:12px 10px; 
+       border-radius:12px 10px;
     }
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
 .social-btns .btn,
@@ -600,4 +597,3 @@ a.animated-button.thar-four:before {
   vertical-align: middle;
   margin-top: 25%;
 }
-

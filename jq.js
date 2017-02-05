@@ -7,7 +7,3 @@ $(document).scroll(function(){
     $('.navb').css("background-color","#2fbbab");
   }
 });
-$('.pull-down').load(function() {
-  var $this = $('.down');
-  $this.css('margin-top', $('.head').height() - $this.height());
-});

@@ -1,6 +1,9 @@
 body{
   overflow-x: hidden;
 }
+html{
+  background-color: #202020;
+}
 .navb{
   background-color: #2fbbab;
   font-family: 'Share Tech Mono', monospace;
@@ -32,18 +35,6 @@ body{
           align-items: center;
   text-align: center;
 }
-
-#head2 {
-  height: 1vh;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-}
-
 @media (min-width: 1000px) {
     #head {
         background-image: url("Cover1.jpg");
@@ -59,7 +50,6 @@ p {
   margin: 0 auto 20px;
 }
 .skewed {
-  width: 120px;
   height: 120px;
   -webkit-transform: skewX(20deg);
   -ms-transform: skewX(20deg);
@@ -69,7 +59,6 @@ p {
   position: relative;
 }
 .nSkewed {
-  width: 120px;
   height: 120px;
   -webkit-transform: skewX(-20deg);
   -ms-transform: skewX(-20deg);

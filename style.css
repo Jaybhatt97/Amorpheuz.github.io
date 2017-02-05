@@ -485,7 +485,7 @@ a.animated-button.thar-four:before {
 }
 .social-btns .btn:focus .fa,
 .social-btns .btn:hover .fa {
-  color: #000;
+  color: #fff;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -503,7 +503,7 @@ a.animated-button.thar-four:before {
 }
 .social-btns .btn {
   display: inline-block;
-  background-color: #000;
+  background-color: #fff;
   width: 90px;
   height: 90px;
   line-height: 90px;

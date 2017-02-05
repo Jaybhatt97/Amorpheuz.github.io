@@ -5,7 +5,7 @@ html{
   background-color: #202020;
 }
 .navb{
-  background-color: #2fbbab;
+  background-color: #B2FF59;
   font-family: 'Share Tech Mono', monospace;
   width: 100%;
   position: fixed;
@@ -80,7 +80,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: block;
   margin: 5px;
 	padding: 14px 15px;
-	color: #fff;
+	color: #000;
 	font-size:14px;
 	font-weight: bold;
 	text-align: center;
@@ -109,7 +109,7 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button:link:hover, a.animated-button:visited:hover {
-	color: #FFF;
+	color: #000;
 	text-shadow: none;
 }
 a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
@@ -120,7 +120,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: block;
   margin: 5px;
 	padding: 14px 15px;
-	color: #fff;
+	color: #000;
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
@@ -138,7 +138,7 @@ a.animated-button:link, a.animated-button:visited {
 /* Thar Buttons */
 
 a.animated-button.thar-one {
-	color: #fff;
+	color: #000;
 	cursor: pointer;
 	display: block;
 	position: relative;
@@ -146,7 +146,7 @@ a.animated-button.thar-one {
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-one:hover {
-	color: #000 !important;
+	color: #fff !important;
 	background-color: transparent;
 	text-shadow: none;
 }
@@ -164,7 +164,7 @@ a.animated-button.thar-one:before {
 	width: 100%;
 	z-index: -1;
 	content: '';
-	color: #000 !important;
+	color: #fff !important;
 	background: #FF1744;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
@@ -200,7 +200,7 @@ a.animated-button.thar-two:before {
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button.thar-three {
-	color: #fff;
+	color: #000;
 	cursor: pointer;
 	display: block;
 	position: relative;
@@ -233,7 +233,7 @@ a.animated-button.thar-three:before {
 0s;
 }
 a.animated-button.thar-four {
-	color: #fff;
+	color: #000;
 	cursor: pointer;
 	display: block;
 	position: relative;
@@ -485,7 +485,7 @@ a.animated-button.thar-four:before {
 }
 .social-btns .btn:focus .fa,
 .social-btns .btn:hover .fa {
-  color: #fff;
+  color: #000;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -503,7 +503,7 @@ a.animated-button.thar-four:before {
 }
 .social-btns .btn {
   display: inline-block;
-  background-color: #fff;
+  background-color: #000;
   width: 90px;
   height: 90px;
   line-height: 90px;

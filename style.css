@@ -401,35 +401,19 @@ a.animated-button.thar-four:before {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+
+
+.button {
+
+
+    box-shadow: 10px 10px 5px #202020;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
 .button1:hover {
      -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     box-shadow: 15px 12px 7px #202020;
-    width: 600px;
-    height: 70px;
-     font-size: 55px;
-    }
-.button2 {
-        color: white;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: #4B7C9F;
-    font-size: 15px;
-    border-radius:10px 8px;
-    height: 30%;
-    width: 40%;
-    box-shadow: 5px 5px 5px #202020;
-   -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-.button21:hover {
-     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    border:5px;
-    box-shadow: 10px 10px 15px #202020;
-    font-size: 15px;
-    border-radius:12px 10px;
     }
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
 .social-btns .btn,

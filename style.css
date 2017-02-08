@@ -425,7 +425,7 @@ a.animated-button.thar-four:before {
           transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-btns .btn:before {
-  top: 90%;
+  top: 90%; 
   left: -110%;
 }
 .social-btns .btn .fa {
@@ -475,8 +475,6 @@ a.animated-button.thar-four:before {
 }
 .social-btns {
   height: 90px;
-
-  margin-top: 10px;
   font-size: 0;
   text-align: center;
   position: absolute;

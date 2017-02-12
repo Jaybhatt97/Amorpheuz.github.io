@@ -7,3 +7,7 @@ $(document).scroll(function(){
     $('.navb').css("background-color","#B2FF59");
   }
 });
+function reloadForm() {
+  var iframe = document.getElementById('#regForm');
+  iframe.src = iframe.src;
+}
